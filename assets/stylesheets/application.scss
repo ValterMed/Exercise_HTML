@@ -1,0 +1,67 @@
+$padding_bottom: 20px;
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.title {
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #148664;
+}
+
+.info-container {
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a0d9d5;
+  .name-field {
+    padding-bottom: $padding_bottom;
+  }
+  .job-field {
+    margin-left: 2px;
+    padding-bottom: $padding_bottom;
+  }
+  .email-field {
+    margin-left: 12px;
+    padding-bottom: $padding_bottom;
+  }
+  .phone-field {
+    padding-bottom: $padding_bottom;
+  }
+  .button {
+    background-color:#939395;
+    border: 2px solid #2999b0;
+    text-align: center;
+    line-height: 1px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 30px;
+    p {
+      cursor: default;
+    }
+    a {
+      text-decoration: none;
+    }
+    
+  }
+  .button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+  .link {
+    text-decoration:none;
+  }
+}

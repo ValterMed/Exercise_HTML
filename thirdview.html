@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/application.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="fillForm()">
+  <div class="title">
+    <h1>Formulario</h1>
+  </div>
+  <form>
+    <div class="info-container">
+      <div class="name-field">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="put-name" placeholder="Escribe tu nombre..." />
+      </div>
+
+      <div class="job-field">
+        <label for="job">Trabajo</label>
+        <input type="text" name="job" id="put-job" placeholder="Escribe tu empleo..." />
+      </div>
+
+      <div class="email-field">
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="put-email" placeholder="Escribe tu email..." />
+      </div>
+
+      <div class="phone-field">
+        <label for="phone">teléfono</label>
+        <input type="text" name="phone" id="put-phone" placeholder="Escribe tu número telefónico..." />
+      </div>
+
+      <div class="button">
+        <p id="demo" onclick="createUser()">Guardar</p>
+      </div>
+      <br/>
+    </div>
+  </form>
+  <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type='text/javascript' src='assets/JavaScript/createfunction.js'></script>
+</body>
+</html>

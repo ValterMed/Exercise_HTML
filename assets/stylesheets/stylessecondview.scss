@@ -1,0 +1,120 @@
+$padding: 8px;
+$margin: 8px;
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  color: cadetblue;
+}
+
+.title {
+  margin: $margin;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+}
+
+.info-container {
+  text-align: center;
+  .text {
+    .name-field {
+      padding: $padding;
+      margin: $margin;
+      background-color: plum;
+      width: 200px;
+      border-radius: 8px;
+      margin-left: auto;
+      margin-right:auto;
+      .name {
+        color: black;
+      }
+      .get-name {
+        color: blue;
+      }
+    }
+    .job-field {
+      padding: $padding;
+      margin: $margin;
+      background-color: plum;
+      width: 200px;
+      border-radius: 8px;
+      margin-left: auto;
+      margin-right:auto;
+      .job {
+        color: black;
+      }
+      .get-job {
+        color: blue;
+      }
+    }
+    .email-field {
+      padding: $padding;
+      margin: $margin;
+      background-color: plum;
+      width: 250px;
+      border-radius: 8px;
+      margin-left: auto;
+      margin-right:auto;
+      .email {
+        color: black;
+      }
+      .get-email {
+        color: blue;
+      }
+    }
+    .phone-field {
+      padding: $padding;
+      margin: $margin;
+      background-color: plum;
+      width: 200px;
+      border-radius: 8px;
+      margin-left: auto;
+      margin-right:auto;
+      .phone {
+        color: black;
+      }
+      .get-phone {
+        color: blue;
+      }
+    }
+    .button {
+      background-color: silver;
+      border: 2px solid #7d93df;
+      text-align: center;
+      line-height: 1px;
+      border-radius: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80px;
+      height: 30px;
+      p {
+        cursor: default;
+      }
+      a {
+        text-decoration: none;
+      }
+      
+    }
+    .button:hover{
+      color: #1883ba;
+      background-color: #ffffff;
+    }
+    .link {
+      text-decoration:none;
+    }
+  }
+  .avatar-container {
+    margin-left: auto;
+    margin-right:auto;
+    .avatar {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

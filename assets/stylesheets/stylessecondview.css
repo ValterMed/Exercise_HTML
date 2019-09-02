@@ -1,0 +1,93 @@
+body {
+  background-color: beige; }
+
+h1 {
+  text-align: center;
+  color: cadetblue; }
+
+.title {
+  margin: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px; }
+
+.info-container {
+  text-align: center; }
+  .info-container .text .name-field {
+    padding: 8px;
+    margin: 8px;
+    background-color: plum;
+    width: 200px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto; }
+    .info-container .text .name-field .name {
+      color: black; }
+    .info-container .text .name-field .get-name {
+      color: blue; }
+  .info-container .text .job-field {
+    padding: 8px;
+    margin: 8px;
+    background-color: plum;
+    width: 200px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto; }
+    .info-container .text .job-field .job {
+      color: black; }
+    .info-container .text .job-field .get-job {
+      color: blue; }
+  .info-container .text .email-field {
+    padding: 8px;
+    margin: 8px;
+    background-color: plum;
+    width: 250px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto; }
+    .info-container .text .email-field .email {
+      color: black; }
+    .info-container .text .email-field .get-email {
+      color: blue; }
+  .info-container .text .phone-field {
+    padding: 8px;
+    margin: 8px;
+    background-color: plum;
+    width: 200px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto; }
+    .info-container .text .phone-field .phone {
+      color: black; }
+    .info-container .text .phone-field .get-phone {
+      color: blue; }
+  .info-container .text .button {
+    background-color: silver;
+    border: 2px solid #7d93df;
+    text-align: center;
+    line-height: 1px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 30px; }
+    .info-container .text .button p {
+      cursor: default; }
+    .info-container .text .button a {
+      text-decoration: none; }
+  .info-container .text .button:hover {
+    color: #1883ba;
+    background-color: #ffffff; }
+  .info-container .text .link {
+    text-decoration: none; }
+  .info-container .avatar-container {
+    margin-left: auto;
+    margin-right: auto; }
+    .info-container .avatar-container .avatar {
+      width: 150px;
+      height: 150px; }
+
+/*# sourceMappingURL=stylessecondview.css.map */
